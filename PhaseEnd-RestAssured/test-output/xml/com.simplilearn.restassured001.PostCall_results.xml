@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="REST ASSURED 001"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.996">
+  <properties />
+  
+  
+            <testcase name="postRequestTest" time="4.996" classname="com.simplilearn.restassured001.PostCall" />
+      
+</testsuite>

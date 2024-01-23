@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAssured Test">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="REST ASSURED 001">
+		<classes>
+			<class name="com.simplilearn.restassured001.PostCall"></class>
+			<class name="com.simplilearn.restassured001.GetCall"></class>
+			<class name="com.simplilearn.restassured001.DeleteCall"></class>
+		</classes>
+	</test>
+	
+	<test name="REST ASSURED 002">
+		<classes>
+			<class name="com.simplilearn.restassured002.PutCall"></class>
+		</classes>
+	</test>
+	
+	<test name="REST ASSURED 003">
+		<classes>
+			<class name="com.simplilearn.restassured003.GetCall"></class>
+		</classes>
+	</test>
+	<test name="REST ASSURED 004">
+		<classes>
+			<class name="com.simplilearn.restassured004.GetAuth"></class>
+		</classes>
+	</test>
+	<test name="REST ASSURED 005">
+		<classes>
+			<class name="com.simplilearn.restassured005.GetCall"></class>
+		</classes>
+	</test>
+	<test name="REST ASSURED 006">
+		<classes>
+			<class name="com.simplilearn.restassured006.GetCall"></class>
+		</classes>
+	</test>
+</suite>

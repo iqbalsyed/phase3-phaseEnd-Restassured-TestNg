@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="REST ASSURED 004"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.767">
+  <properties />
+  
+  
+            <testcase name="testAuthenticationToken" time="3.767" classname="com.simplilearn.restassured004.GetAuth" />
+      
+</testsuite>
